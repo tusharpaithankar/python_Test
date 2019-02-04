@@ -5,6 +5,7 @@
 f1 = open("Test.txt", "r")  #open the file in write mode
 print(f1.read())
 
+f1.close()  #close the opened file
 
 #or we can read file one line by line as follows 
 
@@ -16,8 +17,10 @@ f1 = open("Test.txt", "r")  #open the file in write mode
 for data in f1:
     print(data)
 
+f1.close()  #close the opened file
 
 #Print perticular number of char
 f1 = open("Test.txt", "r")  #open the file in write mode
 print(f1.read(3))           #enter number of char to be read and print 
+f1.close()  #close the opened file
 
