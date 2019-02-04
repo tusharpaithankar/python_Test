@@ -1,0 +1,14 @@
+
+
+	f1 = open("FileName", "FileOpenMode")
+	
+	Here -> f1 is the file pointer
+	        open -> is file open operation
+		FileName -> File name with complete path to be opened
+		FileOpenMode -> r (Read), w (write), a (append), b (binary)
+	
+	
+	f1.read()  -> you can read complete file containt
+
+	f1.write() -> you can write something to the file  -> Add the data to
+be write in file in ("") 
