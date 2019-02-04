@@ -5,6 +5,5 @@ f1 = open("Test.txt", "r")   #open first file in read mode from which we have to
 f2 = open("Copied_file.txt", "w")   #open another file in which we have to copy the containt (open file in write mode)
 
 
-for data in f1:
-    
-    
+x = f1.read()
+b = f2.write(x) 
