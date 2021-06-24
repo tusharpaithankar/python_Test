@@ -1,4 +1,4 @@
-#open and read the binary file data
+#open and read the binary file data : edited for test purpose only
 
 f_bin = open("pic.PNG",'rb')    #rb -> read data in binary format
 
